@@ -32,7 +32,8 @@ python scripts/embed_prott5.py \
   --model_name_or_path Rostlab/prot_t5_xl_uniref50 \
   --device cuda:0 \
   --fp16
-```bash  
+
+
 Do the same for training:
 
 python scripts/embed_prott5.py \
