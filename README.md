@@ -9,7 +9,7 @@ This repository contains scripts for:
 3) training and evaluating the model.
 
 
-##Data Preparation**
+## Data Preparation
 1) FASTA for embeddings
 Prepare FASTA files such as:
 data/Train.fasta
