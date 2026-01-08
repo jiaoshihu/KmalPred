@@ -9,7 +9,7 @@ This repository contains scripts for:
 3) training and evaluating the model.
 
 
-## Data Preparation
+**Data Preparation**
 1) FASTA for embeddings
 Prepare FASTA files such as:
 data/Train.fasta
@@ -25,7 +25,7 @@ Position (1-based site position)
 Sequence (full protein sequence)
 
 **Step 1: Extract ProtT5 Embeddings (per-residue)**
-
+```bash
 python scripts/embed_prott5.py \
   --fasta data/Test.fasta \
   --out data/test.pkl \
