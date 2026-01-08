@@ -31,7 +31,8 @@ python scripts/embed_prott5.py \
   --out data/test.pkl \
   --model_name_or_path Rostlab/prot_t5_xl_uniref50 \
   --device cuda:0 \
-  --fp16```
+  --fp16
+```
 
 
 Do the same for training:
