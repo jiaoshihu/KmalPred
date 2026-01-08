@@ -14,7 +14,7 @@ This repository contains scripts for:
 Prepare FASTA files such as:
 data/Train.fasta
 data/Test.fasta
-FASTA headers (protein IDs) must match the IDs used in your window index files (see ID Consistency below).
+FASTA headers (protein IDs) must match the IDs used in your window index files.
 2) Excel for site annotations
 Prepare Excel files such as:
 data/Train.xlsx
