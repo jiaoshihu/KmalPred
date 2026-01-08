@@ -63,7 +63,7 @@ python scripts/build_negative_windows.py \
   --match_positives data/train_positive.pkl
 ```
 
-**Step 3: Train & Evaluate (BiLSTM)**
+**Step 3: Train & Evaluate**
 Run training from the repo root:
 ```bash
 python scripts/main.py \
