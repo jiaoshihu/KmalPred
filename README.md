@@ -5,11 +5,11 @@ It uses **ProtT5 residue-level embeddings** (sequence-first encoding) and a **Bi
 
 This repository contains scripts for:
 1) extracting ProtT5 per-residue embeddings,
-2) building positive/negative lysine-centered windows from Exce annotations,
+2) building positive/negative lysine-centered windows from annotations,
 3) training and evaluating the model.
 
 
-Data Preparation
+##Data Preparation**
 1) FASTA for embeddings
 Prepare FASTA files such as:
 data/Train.fasta
@@ -24,7 +24,7 @@ Uniprot Accession
 Position (1-based site position)
 Sequence (full protein sequence)
 
-Step 1: Extract ProtT5 Embeddings (per-residue)
+**Step 1: Extract ProtT5 Embeddings (per-residue)**
 
 python scripts/embed_prott5.py \
   --fasta data/Test.fasta \
@@ -42,7 +42,7 @@ python scripts/embed_prott5.py \
   --device cuda:0 \
   --fp16
 
-Step 2: Build Positive / Negative Windows
+**Step 2: Build Positive / Negative Windows**
 Example:
 python scripts/build_negative_windows.py \
   --excel data/Test.xlsx --sheet Sheet1 \
@@ -58,7 +58,7 @@ python scripts/build_negative_windows.py \
   --win 35 --shuffle --seed 42 \
   --match_positives data/train_positive.pkl
 
-Step 3: Train & Evaluate (BiLSTM)
+**Step 3: Train & Evaluate (BiLSTM)**
 Run training from the repo root:
 
 python scripts/main.py \
