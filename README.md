@@ -46,6 +46,7 @@ python scripts/embed_prott5.py \
   --fp16
 ```
 **Step 2: Build Positive / Negative Windows**
+
 Example:
 ```bash
 python scripts/build_negative_windows.py \
