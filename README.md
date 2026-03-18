@@ -8,6 +8,18 @@ This repository contains scripts for:
 2) building positive/negative lysine-centered windows from annotations,
 3) training and evaluating the model.
 
+## Requirements
+
+- Python 3.9
+- PyTorch 2.5.1 
+- transformers 4.45.1
+- sentencepiece 0.2.1
+- huggingface-hub 0.36.2
+- numpy 2.0.1
+- pandas 2.3.3
+- scikit-learn 1.6.1
+- scipy 1.13.1
+- tqdm 4.67.1
 
 **Data Preparation**
 1) FASTA for embeddings
