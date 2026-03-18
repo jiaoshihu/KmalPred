@@ -29,7 +29,8 @@ data/Train.fasta
 data/Test.fasta
 ```
 FASTA headers (protein IDs) must match the IDs used in your window index files.
-3) Excel for site annotations
+
+2) Excel for site annotations
 Prepare Excel files such as:
 ```bash
 data/Train.xlsx
