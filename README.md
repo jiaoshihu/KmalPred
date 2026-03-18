@@ -65,6 +65,14 @@ python scripts/embed_prott5.py \
 **Step 2: Build Positive / Negative Windows**
 
 Example:
+
+```bash
+python scripts/build_positive_windows.py \
+  --excel data/Test.xlsx --sheet Sheet1 \
+  --out data/test_positive.pkl \
+  --win 35 --shuffle --seed 42
+```
+
 ```bash
 python scripts/build_negative_windows.py \
   --excel data/Test.xlsx --sheet Sheet1 \
