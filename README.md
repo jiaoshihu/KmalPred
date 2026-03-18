@@ -36,10 +36,10 @@ Prepare Excel files such as:
 data/Train.xlsx
 data/Test.xlsx
 ```
-Required columns (your scripts will rename them internally):
-Uniprot Accession
-Position (1-based site position)
-Sequence (full protein sequence)
+Required columns:
+-Uniprot Accession
+* Position (1-based site position)
+-Sequence (full protein sequence)
 
 **Step 1: Extract ProtT5 Embeddings (per-residue)**
 ```bash
