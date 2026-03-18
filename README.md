@@ -37,9 +37,9 @@ data/Train.xlsx
 data/Test.xlsx
 ```
 Required columns:
--Uniprot Accession
+* Uniprot Accession
 * Position (1-based site position)
--Sequence (full protein sequence)
+* Sequence (full protein sequence)
 
 **Step 1: Extract ProtT5 Embeddings (per-residue)**
 ```bash
