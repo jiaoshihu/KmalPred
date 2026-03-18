@@ -28,7 +28,7 @@ Prepare FASTA files such as:
 data/Train.fasta
 data/Test.fasta
 ```
-FASTA headers (protein IDs) must match the IDs used in your window index files.
+The protein IDs in the FASTA file must match those in the Excel annotation file.
 
 2) Excel for site annotations
 Prepare Excel files such as:
