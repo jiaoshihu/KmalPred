@@ -5,8 +5,8 @@ It uses **ProtT5 residue-level embeddings** (sequence-first encoding) and a **Bi
 
 This repository contains scripts for:
 1) extracting ProtT5 per-residue embeddings,
-2) building positive/negative lysine-centered windows from annotations,
-3) training and evaluating the model.
+2) constructing lysine-centered positive and negative windows from site annotations,
+3) training and evaluating the prediction model.
 
 ## Requirements
 
